@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	margin:0;
+	padding:0;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	font-size:100%;
+}
+body {
+	width:100%;
+	background:#FFF;
+	color:#000;
+	font-family:'Arial';
+}
+p {
+	font-size:0.750em;
+}
+.fa {
+	font-size:1.5em !important;
+}
+iframe#contacto {
+	width:100%;
+	height:850px;
+}
+#logo {
+	width:328px;
+	height:67px;
+	float:left;
+}
+#logo a > img {
+	width:100%;
+	height:100%;
+}
+.cotizar {
+	width:150px;
+	float:right;
+	margin-top:15px;
+	height:20px;
+	text-align:center;
+	background:#132F7A;
+	padding:10px;
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+	font-size:0.875em;
+}
+#gracias {
+	width:50%;
+	margin:auto;
+	display:block;
+	text-align:center;
+}
+#gracias h3 {
+	font-size:1.500em;
+	font-weight:bold;
+}
+#gracias p {
+	font-size:1.125em;
+}
+.descripcion {
+	text-align:justify;
+	float:left;
+	width:100%;
+	margin:10px 0;
+}
+.wrap {
+	width:1024px;
+	margin:auto;
+	display:table;
+	padding:30px 10px;
+	box-sizing:border-box;
+}
+.moto {
+	width:40.5%;
+	display:block;
+	float:left;
+	border:#132F7A solid 1px;
+	margin-bottom:50px;
+	padding:25px;
+	min-height:440px;
+}
+.moto:nth-child(even) {
+	float:right;
+	margin-right:0;
+}
+.title {
+	color:#132F7A;
+	font-size:1.875em;
+	font-weight:bold;
+	text-align:left;
+	margin-bottom:10px;
+}
+.motoimg {
+	width:100%;
+	float:left;
+}
+.motoimg img {
+	width:407px;
+	height:auto;
+	vertical-align:bottom;
+}
+.motoimg img > img {
+	width:100%;
+	height:100%;
+}
+.btn-cotizar {
+	width:30%;
+	height:20px;
+	float:right;
+	text-align:center;
+	background:#132F7A;
+	bottom:10px;
+	padding:10px;
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+	font-size:0.875em;
+}
+a:hover.btn-cotizar {
+	background:#966E05;
+}
+a:hover.btn-ft {
+	background:#8B8B8B;
+}
+.btn-ft {
+	margin-right:15px;
+	width:52%;
+	height:20px;
+	display:block;
+	float:left;
+	text-align:center;
+	background:#646464;
+	padding:10px;
+	color:#FFF;
+	text-decoration:none;
+	font-size:0.875em;
+}
+#logo h1 {
+	display:none;
+}
+footer {
+	width:100%;
+	margin:auto;
+	float:left;
+	background:#646464;
+	color:#FFF;
+	padding:25px 0;
+}
+.rs-int {
+	width:150px;
+	float:left;
+	font-size:0.750em;
+}
+#rs {
+	/*width:120px;*/
+	margin:0 auto;
+	display:table;
+	text-align:left;
+}
+.circle-icon {
+	background:#132F7A;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	text-align:center;
+	line-height:35px;
+	vertical-align:middle;
+	padding:10px;
+	float:left;
+	display:block;
+	color:#FFF;
+	margin:0 5px;
+}
+#intro {
+	width:70%;
+	margin:auto;
+}
+#intro p {
+	font-size:1.125em;
+	text-align:center;
+}
+.swiper-container {
+	width:100%;
+	height:100%;
+}
+.swiper-slide {
+	text-align:center;
+	font-size:18px;
+	background:#fff;
+	/* Center slide text vertically */
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	-webkit-justify-content:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	-webkit-align-items:center;
+	align-items:center;
+}
+.swiper-slide img {
+	width:100%;
+	height:100%;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+.wrap {
+	width:100%;
+}
+.moto {
+	width:43%;
+	height:450px;
+}
+.motoimg > img {
+	width:100%;
+	height:100%;
+}
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+.wrap {
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+}
+.cotizar {
+	width:100px;
+}
+#gracias {
+	width:100%;
+}
+#intro {
+	width:90%;
+}
+#gracias p, #gracias h3, #intro p {
+	font-size:90%;
+}
+.moto {
+	width:100%;
+	margin:15px 0;
+	padding:15px;
+	box-sizing:border-box;
+}
+.moto:nth-child(even) {
+	float:left;
+}
+.motoimg > img {
+	width:100%;
+	height:100%;
+}
+.btn-ft {
+	margin-right:5px;
+}
+.btn-ft, .btn-cotizar {
+	height:14px;
+	font-size:70%;
+}
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+.moto {
+	min-height:300px;
+}
+.cotizar {
+	display:none;
+}
+#logo {
+	width:250px;
+	height:auto;
+	margin:auto;
+	float:none;
+}
+}
